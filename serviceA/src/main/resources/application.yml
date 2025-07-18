@@ -5,3 +5,7 @@ spring:
     import: configserver:http://localhost:8888
 
 
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
