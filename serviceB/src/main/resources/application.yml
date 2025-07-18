@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: serviceb
+server:
+  port: 8080
+
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: false
+
+
